@@ -77,7 +77,10 @@ plugins=(
 	npm
 	nvm
 	tmux
+	vagrant
+	vscode
 	vundle
+	z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -114,3 +117,13 @@ alias vim="nvim"
 
 # Removing the username
 DEFAULT_USER prompt_context(){}
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
+
+alias php7='/Applications/MAMP/bin/php/php7.0.32/bin/php -c "/Library/Application Support/appsolute/MAMP PRO/conf/php7.0.32.ini"'
+alias pear7='/Applications/MAMP/bin/php/php7.0.32/bin/pear'
+alias pecl7='/Applications/MAMP/bin/php/php7.0.32/bin/pecl'
+export PATH="/usr/local/opt/openssl/bin:$PATH"

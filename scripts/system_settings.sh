@@ -169,7 +169,7 @@ defaults write com.apple.dock mouse-over-hilite-stack -bool true
 defaults write com.apple.dock tilesize -int 36
 
 # Only show active apps in dock
-defaults write com.apple.dock static-only -bool true
+#defaults write com.apple.dock static-only -bool true
 
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
