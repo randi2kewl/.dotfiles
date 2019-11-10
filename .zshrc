@@ -1,3 +1,9 @@
+# I can't take credit for a lot of these
+# here are some resources where I found options:
+#
+# - https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
+#
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -115,6 +121,28 @@ source $ZSH/oh-my-zsh.sh
 alias vi="nvim"
 alias vim="nvim"
 
+# Mapping php for MAMP
+alias php7='/Applications/MAMP/bin/php/php7.0.32/bin/php -c "/Library/Application Support/appsolute/MAMP PRO/conf/php7.0.32.ini"'
+alias pear7='/Applications/MAMP/bin/php/php7.0.32/bin/pear'
+alias pecl7='/Applications/MAMP/bin/php/php7.0.32/bin/pecl'
+
+# Navigation shortcuts
+## get rid of command not found ##
+alias cd..='cd ..'
+ 
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+## Colorize the grep command output for ease of use (good for log files)##
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
 # Removing the username
 DEFAULT_USER prompt_context(){}
 
@@ -123,7 +151,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 
-alias php7='/Applications/MAMP/bin/php/php7.0.32/bin/php -c "/Library/Application Support/appsolute/MAMP PRO/conf/php7.0.32.ini"'
-alias pear7='/Applications/MAMP/bin/php/php7.0.32/bin/pear'
-alias pecl7='/Applications/MAMP/bin/php/php7.0.32/bin/pecl'
 export PATH="/usr/local/opt/openssl/bin:$PATH"
