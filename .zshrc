@@ -122,9 +122,17 @@ alias vi="nvim"
 alias vim="nvim"
 
 # Mapping php for MAMP
-alias php7='/Applications/MAMP/bin/php/php7.0.32/bin/php -c "/Library/Application Support/appsolute/MAMP PRO/conf/php7.0.32.ini"'
-alias pear7='/Applications/MAMP/bin/php/php7.0.32/bin/pear'
-alias pecl7='/Applications/MAMP/bin/php/php7.0.32/bin/pecl'
+#alias php7='/Applications/MAMP/bin/php/php7.0.32/bin/php -c "/Library/Application Support/appsolute/MAMP PRO/conf/php7.0.32.ini"'
+#alias pear7='/Applications/MAMP/bin/php/php7.0.32/bin/pear'
+#alias pecl7='/Applications/MAMP/bin/php/php7.0.32/bin/pecl'
+
+# From "brew" php@5.6
+#export PATH="/usr/local/opt/php@5.6/bin:$PATH"
+#export PATH="/usr/local/opt/php@5.6/sbin:$PATH"
+
+# From "brew" php@7.1
+#export PATH="/usr/local/opt/php@7.1/bin:$PATH"
+#export PATH="/usr/local/opt/php@7.1/sbin:$PATH"
 
 # Navigation shortcuts
 ## get rid of command not found ##
@@ -143,12 +151,15 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
+alias code='code-insiders'
+
 # Removing the username
 DEFAULT_USER prompt_context(){}
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
 
 
 export PATH="/usr/local/opt/openssl/bin:$PATH"
