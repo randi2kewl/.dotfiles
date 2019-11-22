@@ -2,6 +2,7 @@
 # here are some resources where I found options:
 #
 # - https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
+# - Iterm2 color scheme: spacegray
 #
 
 # If you come from bash you might have to change your $PATH.
@@ -159,6 +160,8 @@ DEFAULT_USER prompt_context(){}
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
+alias tmux="TERM=screen-256color-bce tmux"
 
 
 

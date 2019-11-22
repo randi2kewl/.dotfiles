@@ -22,6 +22,7 @@ brew cleanup
 
 PACKAGES=(
 	compser
+	ctags
 	ffmpeg
 	findutils
 	git
