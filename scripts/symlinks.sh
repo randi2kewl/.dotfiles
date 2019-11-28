@@ -14,4 +14,5 @@ if test $(which zsh); then
 fi
 
 ln -f -s "$path/.vimrc" ~/.vimrc
+ln -f -s "$path/.tmux.conf" ~/.tmux.conf
 
