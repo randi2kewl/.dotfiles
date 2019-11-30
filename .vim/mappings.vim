@@ -11,3 +11,5 @@ nmap [w :copen<cr>
 nmap [q :cnext<cr>
 nmap ]q :cprevious<cr>
 nmap ]w :cclose<cr>
+
+nmap <C-t> :TagbarToggle<CR>
