@@ -9,6 +9,8 @@ set expandtab
 set backspace=indent,eol,start
 set number
 set autowriteall
+set textwidth=120
+set colorcolumn=+1
 
 
 "*************** COLOR SCHEME ***************"
@@ -22,3 +24,5 @@ highlight LineNr ctermfg=darkgrey ctermbg=bg
 set t_Co=256
 
 let g:airline_theme='solarized'
+
+
