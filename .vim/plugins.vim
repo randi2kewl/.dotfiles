@@ -33,6 +33,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'majutsushi/tagbar'
+Plugin 'sickill/vim-pasta'
 " End snipmate
 
 " All of your Plugins must be added before the following line
