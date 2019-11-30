@@ -30,6 +30,8 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 " End snipmate
 
 " All of your Plugins must be added before the following line

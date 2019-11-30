@@ -20,3 +20,5 @@ let g:spacegray_low_contrast = 0
 hi vertsplit ctermfg=darkgrey ctermbg=bg
 highlight LineNr ctermfg=darkgrey ctermbg=bg
 set t_Co=256
+
+let g:airline_theme='solarized'
