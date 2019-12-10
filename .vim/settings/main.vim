@@ -12,6 +12,18 @@ set autowriteall
 set textwidth=120
 set colorcolumn=+1
 
+" Highlight matches
+set hlsearch
+
+" Shows matches as you type
+set incsearch
+
+" Ignore case for searches 
+set ignorecase
+
+" Override ignorecase if capital is used
+set smartcase
+
 
 "*************** COLOR SCHEME ***************"
 

@@ -17,7 +17,7 @@ Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'StanAngeloff/php.vim'
 Plugin 'arnaud-lb/vim-php-namespace'
-"Plugin 'ervandew/supertab'
+Plugin 'ervandew/supertab'
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'tobyS/pdv'
 Plugin 'tobyS/vmustache'
@@ -34,6 +34,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'majutsushi/tagbar'
 Plugin 'sickill/vim-pasta'
+Plugin 'loremipsum'
 " End snipmate
 
 " All of your Plugins must be added before the following line
