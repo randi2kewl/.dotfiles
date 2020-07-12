@@ -76,6 +76,8 @@ alias fgrep='fgrep --color=auto'
 
 alias code='code-insiders'
 
+alias glog='git log --oneline --graph --decorate'
+
 # Removing the username
 DEFAULT_USER prompt_context(){}
 
